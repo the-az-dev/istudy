@@ -1,0 +1,19 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@istudy/core/(.*)": "<rootDir>/../libs/core/src/$1",
+    "@istudy/core": "<rootDir>/../libs/core/src",
+    "istudy/core/(.*)": "<rootDir>/../libs/core/src/$1",
+    "istudy/core": "<rootDir>/../libs/core/src"
+  }
+}
